@@ -152,10 +152,10 @@ The demo application allows the user to upload an image and returns:
 
 ### This project can be tested in Google Colab without setting up everything locally.
 
-!git clone https://github.com/yllkanuredini/sod_project.git
-%cd sod_project
-!pip install torch torchvision opencv-python matplotlib numpy scikit-learn tqdm gradio
-!python src/evaluate_improved.py
+- !git clone https://github.com/yllkanuredini/sod_project.git
+- %cd sod_project
+- !pip install torch torchvision opencv-python matplotlib numpy scikit-learn tqdm gradio
+- !python src/evaluate_improved.py
 
 ### To launch the demo app:
 !python app.py
