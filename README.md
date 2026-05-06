@@ -148,6 +148,18 @@ The demo application allows the user to upload an image and returns:
 - Overlay visualization
 - Inference time
 
+## Running the Project in Google Colab
+
+### This project can be tested in Google Colab without setting up everything locally.
+
+!git clone https://github.com/yllkanuredini/sod_project.git
+%cd sod_project
+!pip install torch torchvision opencv-python matplotlib numpy scikit-learn tqdm gradio
+!python src/evaluate_improved.py
+
+### To launch the demo app:
+!python app.py
+
 ## Conclusion
 
 This project successfully implemented a complete Salient Object Detection pipeline from scratch. The baseline CNN learned to identify general salient object regions, while the improved CNN achieved better overall performance after adding Batch Normalization and Dropout.
