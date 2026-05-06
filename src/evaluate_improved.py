@@ -117,11 +117,11 @@ def save_visualizations(model, test_loader, device, output_dir, num_samples=5):
 
 
 def main():
-    images_dir = "sod_project/data/ecssd/images/images"
-    masks_dir = "sod_project/data/ecssd/masks/ground_truth_mask"
+    images_dir = "data/ecssd/images"
+    masks_dir = "data/ecssd/masks/ground_truth_mask"
 
-    model_path = "sod_project/outputs/checkpoints/best_improved_sod_model.pth"
-    visualization_dir = "sod_project/outputs/visualizations_improved"
+    model_path = "outputs/checkpoints/best_improved_sod_model.pth"
+    visualization_dir = "outputs/visualizations_improved"
 
     batch_size = 8
     image_size = 128

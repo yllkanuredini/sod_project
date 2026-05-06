@@ -5,12 +5,12 @@ import gradio as gr
 import numpy as np
 import cv2
 
-sys.path.append("sod_project/src")
+sys.path.append("src")
 
 from sod_model_improved import ImprovedSODModel
 
 
-MODEL_PATH = "sod_project/outputs/checkpoints/best_improved_sod_model.pth"
+MODEL_PATH = "outputs/checkpoints/best_improved_sod_model.pth"
 IMAGE_SIZE = 128
 
 

@@ -97,7 +97,7 @@ Overall, the improved model performed better.
 
 ## Project Files
 
-sod_project/
+
     app.py
     README.md
     data/
@@ -121,23 +121,23 @@ sod_project/
 
 Train baseline model:
 
-python sod_project/src/train.py
+python src/train.py
 
 Evaluate baseline model:
 
-python sod_project/src/evaluate.py
+python src/evaluate.py
 
 Train improved model:
 
-python sod_project/src/train_improved.py
+python src/train_improved.py
 
 Evaluate improved model:
 
-python sod_project/src/evaluate_improved.py
+python src/evaluate_improved.py
 
 Run demo app:
 
-python sod_project/app.py
+python app.py
 
 ## Demo
 

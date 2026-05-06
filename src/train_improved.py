@@ -99,10 +99,10 @@ def save_checkpoint(model, optimizer, epoch, best_val_loss, checkpoint_path):
 
 
 def main():
-    images_dir = "sod_project/data/ecssd/images/images"
-    masks_dir = "sod_project/data/ecssd/masks/ground_truth_mask"
+    images_dir = "data/ecssd/images"
+    masks_dir = "data/ecssd/masks/ground_truth_mask"
 
-    checkpoint_dir = "sod_project/outputs/checkpoints"
+    checkpoint_dir = "outputs/checkpoints"
     os.makedirs(checkpoint_dir, exist_ok=True)
 
     latest_checkpoint_path = f"{checkpoint_dir}/latest_improved_checkpoint.pth"
